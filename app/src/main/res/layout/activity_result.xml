@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_result"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="robbydeveloper.taukahanda.ResultActivity"
+    android:background="#fff">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txNama2"
+        android:textColor="@color/black"
+        android:text=""
+        android:textStyle="bold"
+        android:layout_above="@+id/textView2"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp" />
+    <TextView
+        android:text="nilai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tvRes"
+        android:textColor="#000"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:text="Nilai anda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/tvRes"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textView2" />
+
+    <Button
+        android:text="Mulai Ulang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/btnReset"
+        android:background="@drawable/rounded_button"
+        android:layout_below="@+id/tvRes"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="robbydeveloper.taukahanda">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/taukahanda"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/taukahanda"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="Tentang Aplikasi" />
+        <activity
+            android:name=".MenuActivity"
+            android:label="Menu"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MateriActivity"
+            android:label="Materi" />
+        <activity android:name=".Quiz.Quiz1Activity"
+        android:parentActivityName=".MainActivity"
+        android:label="Pertanyaan 1"/>
+        <activity android:name=".Quiz.Quiz2Activity"
+            android:parentActivityName=".Quiz.Quiz1Activity"
+            android:label="Pertanyaan 2"/>
+        <activity android:name=".Quiz.Quiz3Activity"
+            android:parentActivityName=".Quiz.Quiz2Activity"
+            android:label="Pertanyaan 3"/>
+        <activity android:name=".Quiz.Quiz4Activity"
+            android:parentActivityName=".Quiz.Quiz3Activity"
+            android:label="Pertanyaan 4"/>
+        <activity android:name=".Quiz.Quiz5Activity"
+            android:parentActivityName=".Quiz.Quiz4Activity"
+            android:label="Pertanyaan 5"/>
+        <activity android:name=".Quiz.Quiz6Activity"
+            android:parentActivityName=".Quiz.Quiz5Activity"
+            android:label="Pertanyaan 6"/>
+        <activity android:name=".Quiz.Quiz7Activity"
+            android:parentActivityName=".Quiz.Quiz6Activity"
+            android:label="Pertanyaan 7"/>
+        <activity android:name=".Quiz.Quiz8Activity"
+            android:parentActivityName=".Quiz.Quiz7Activity"
+            android:label="Pertanyaan 8"/>
+        <activity android:name=".Quiz.Quiz9Activity"
+            android:parentActivityName=".Quiz.Quiz8Activity"
+            android:label="Pertanyaan 9"/>
+        <activity android:name=".Quiz.Quiz10Activity"
+            android:parentActivityName=".Quiz.Quiz9Activity"
+            android:label="Pertanyaan 10"/>
+        <activity android:name=".ResultActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Hasil">
+        </activity>
+    </application>
+
+</manifest>

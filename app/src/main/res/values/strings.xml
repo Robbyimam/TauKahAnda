@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TauKahAnda</string>
+    <string name="action_about">About</string>
+    <string name="exit">keluar</string>
+    <string name="main_menu">Main Menu</string>
+    <string name="icon_button_color">button</string>
+    <string name="title_activity_materi">MateriActivity</string>
+</resources>
